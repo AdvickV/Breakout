@@ -26,3 +26,4 @@ class Ball(Turtle):
 
     def increase_speed(self):
         self.move_speed *= 1
+        self.speed(self.move_speed)
